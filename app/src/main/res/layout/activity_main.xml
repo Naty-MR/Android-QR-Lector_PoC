@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.poc.qrpoc.MainActivity">
+
+    <com.poc.qrpoc.RectangleView
+        android:id="@+id/rectangleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:alpha="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/detailTV"
+        android:textColor="#ffee00"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:maxLines="2"/>
+
+</FrameLayout>
