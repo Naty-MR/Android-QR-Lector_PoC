@@ -1,0 +1,1 @@
+# Android-QR-Lector_PoC
